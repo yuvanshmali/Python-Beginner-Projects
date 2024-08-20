@@ -33,6 +33,7 @@ def main():
             answer= int(input("Enter your answer in 1-4, 0 to Quit: "))
         except ValueError:
             print("Please enter value between 1 to 4 (in integer format) ")
+            break
         if answer ==0 :
             print("You Quit the game!!")
             break 
